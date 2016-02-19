@@ -13,7 +13,6 @@ module ActiveRecord
     extend ActiveSupport::Concern
 
     included do
-      serialize :properties, ::ActiveRecord::Coders::Hstore
       class_attribute :_properties
     end
 

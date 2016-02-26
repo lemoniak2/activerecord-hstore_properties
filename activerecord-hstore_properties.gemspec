@@ -24,7 +24,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "sqlite3"
   gem.add_development_dependency "activerecord", '>= 3.2.12'
-  gem.add_development_dependency "with_model"
   gem.add_development_dependency  "with_model", "~> 0.3.1"
   gem.add_development_dependency  "pry"
 
